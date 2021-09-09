@@ -1,0 +1,712 @@
+[
+  {
+    "description": "              I want to log into Orange HRM login page",
+    "keyword": "Feature",
+    "name": "Add Employee Details to Orange HRM Application",
+    "line": 2,
+    "id": "add-employee-details-to-orange-hrm-application",
+    "tags": [
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "Employee.feature",
+    "elements": [
+      {
+        "id": "add-employee-details-to-orange-hrm-application;update-employee-details-to-the-page",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Update Employee details to the page",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 9749000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 9898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Click Pim Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 5197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Select employee \"Chase\" from the table",
+            "result": {
+              "status": "passed",
+              "duration": 18008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Click Edit Button for the employee",
+            "result": {
+              "status": "passed",
+              "duration": 3335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Update Blood \"B+\" for the employee",
+            "result": {
+              "status": "passed",
+              "duration": 3806000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Click Save Button",
+            "result": {
+              "status": "passed",
+              "duration": 5269000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-employee-details-to-orange-hrm-application;update-contact-details-to-the-page",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Update Contact details to the page",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 2364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 5525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Click Pim Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 3698000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Select employee \"Chase\" from the table",
+            "result": {
+              "status": "passed",
+              "duration": 7137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Click Contact Details",
+            "result": {
+              "status": "passed",
+              "duration": 1283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "Click Edit Button",
+            "result": {
+              "status": "passed",
+              "duration": 3613000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Update Alternate Email \"dominicc@gmail.com\" for the employee",
+            "result": {
+              "status": "passed",
+              "duration": 2077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Click Save Button",
+            "result": {
+              "status": "passed",
+              "duration": 1526000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-employee-details-to-orange-hrm-application;add-timesheet-to-the-employee",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Add Timesheet to the employee",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 2273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Click Time Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 1682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Search employee name \"Russel Hamilton\"",
+            "result": {
+              "status": "passed",
+              "duration": 1632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Click View link",
+            "result": {
+              "status": "passed",
+              "duration": 1559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Click Add Timesheet Button for the employee",
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Select time period \"2020-12-24\" for the timesheet",
+            "result": {
+              "status": "passed",
+              "duration": 5905000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "verify message \"Timesheet Already ExistsClose\" in timesheet page",
+            "result": {
+              "status": "failed",
+              "duration": 8951000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `div[id=msgDiv]`, but never found it.\n    at EmployeePage.verifyWarningMessage (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:418:31)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:1039:7)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:12191:9)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:11532:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Click Add Timesheet Button for the employee",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Select time period \"2021-01-05\" for the timesheet",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "verify message \"Failed to Create: Future Timesheets Not AllowedClose\" in timesheet page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Click Edit Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Select project \"Global Corp and Co - Global Software phase - 1\" and activity name \"    Project Management    \" for the timesheet",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Enter working hours \"8.00\" for the week",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "Click Save Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Click Submit Button",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-employee-details-to-orange-hrm-application;employee-report-for-timesheet",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Employee Report for Timesheet",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 53
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 9707000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 6589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Click Time Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 3715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Click \"Reports\" menu Link",
+            "result": {
+              "status": "passed",
+              "duration": 2483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "Select \"Employee Reports\" menu for the timesheet",
+            "result": {
+              "status": "passed",
+              "duration": 4603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "Search employee name \"Paul Collings\" for report",
+            "result": {
+              "status": "passed",
+              "duration": 3992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "Select FromDate \"2020-12-24\" for the timesheet",
+            "result": {
+              "status": "passed",
+              "duration": 2371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "Select ToDate \"2020-12-24\" for the timesheet",
+            "result": {
+              "status": "passed",
+              "duration": 2191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "Click \"Only Include Approved Timesheets\" checkbox for the employee",
+            "result": {
+              "status": "passed",
+              "duration": 891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "Click View link",
+            "result": {
+              "status": "passed",
+              "duration": 3809000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "Verify employee name \"Paul Collings\" for the report details",
+            "result": {
+              "status": "passed",
+              "duration": 3279000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-employee-details-to-orange-hrm-application;employee-trackers-for-timesheet",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "Employee Trackers for Timesheet",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 71
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 1744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 7171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "Click \"Performance\" Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 2113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "Click \"Employee Trackers\" menu Link",
+            "result": {
+              "status": "passed",
+              "duration": 2388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "Select employee \"Fiona Grace\" from the trackers table",
+            "result": {
+              "status": "failed",
+              "duration": 1725000000,
+              "error_message": "ReferenceError: The following error originated from your application code, not from Cypress.\n\n  > userId is not defined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n    at https://opensource-demo.orangehrmlive.com/index.php/performance/addPerformanceTrackerLog/trackId/2:1270:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "Click Add Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "Enter Performance Tracker Log Details in the tracker page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "Click Save Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Verify Added Date \"2020-12-28\" for the tracker",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-employee-details-to-orange-hrm-application;search-employee-details-from-the-directory",
+        "keyword": "Scenario",
+        "line": 99,
+        "name": "Search Employee Details from the Directory",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 87
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 3366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 4407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "Click Directory Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 5174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "Search \"Charlie Carter\" in the directory page",
+            "result": {
+              "status": "passed",
+              "duration": 3681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "Click Search Button",
+            "result": {
+              "status": "passed",
+              "duration": 1687000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "Select Job Title \"QA Engineer\" from the dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 3241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "Select Location \"New York Sales Office\" from the dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 2959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "Verify \"Charlie Carter QA Engineer New York Sales Office Quality Assurance charlie1@osohrm.com\" is displayed in the directory page",
+            "result": {
+              "status": "passed",
+              "duration": 5078000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

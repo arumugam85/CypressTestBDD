@@ -1,0 +1,85 @@
+[
+  {
+    "description": "              I want to log into demo tour login page",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;demo-tour-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Demo Tour Login",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open demo tour login page",
+            "result": {
+              "status": "passed",
+              "duration": 11707000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mercury",
+                      "mercury"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I type below user details",
+            "result": {
+              "status": "passed",
+              "duration": 4263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Validate the Page Title as \"Login: Mercury Tours\"",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Validate the Login Success Message as \"Login Successfully\"",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

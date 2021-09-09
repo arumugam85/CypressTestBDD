@@ -1,0 +1,19 @@
+{
+"baseUrl": "https://opensource-demo.orangehrmlive.com/",
+"video": false,
+"testFiles": "**/*.feature",
+
+"reporter": "cypress-multi-reporters",
+"reporterOptions": {
+"reporterEnabled": "mochawesome",
+"mochawesomeReporterOptions": {
+"reportDir": "results/cypress-report.xml",
+"quite": true,
+"overwrite": false,
+"html": true,
+"json": true
+}
+}
+
+}
+

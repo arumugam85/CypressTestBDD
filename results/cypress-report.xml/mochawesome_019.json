@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-09-05T01:14:49.121Z",
+    "end": "2021-09-05T01:15:46.241Z",
+    "duration": 57120,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6f53e587-4a98-4dcc-bca1-7f8aec68f9e2",
+      "title": "",
+      "fullFile": "cypress\\integration\\features\\Login.feature",
+      "file": "cypress\\integration\\features\\Login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "604207ab-9383-43ce-be09-5e7b7faa7ca2",
+          "title": "Login to Orange HRM Application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Orange HRM Login",
+              "fullTitle": "Login to Orange HRM Application Orange HRM Login",
+              "timedOut": null,
+              "duration": 52581,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
+                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:159074:22\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10325:23)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:5447:41\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10325:23)\n    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:8260:31)\n    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:8317:18)\n    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:8362:10)\n    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:8438:18)\n    at _drainQueueStep (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:5032:12)\n    at _drainQueue (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:5025:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:5041:5)\n    at Async.drainQueues (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:4911:14)",
+                "diff": null
+              },
+              "uuid": "7cc6bb5a-5658-4b57-a1dc-56f22b022b0c",
+              "parentUUID": "604207ab-9383-43ce-be09-5e7b7faa7ca2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "7cc6bb5a-5658-4b57-a1dc-56f22b022b0c"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 52581,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "results/cypress-report.xml",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

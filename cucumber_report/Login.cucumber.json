@@ -1,0 +1,78 @@
+[
+  {
+    "description": "              I want to log into Orange HRM login page",
+    "keyword": "Feature",
+    "name": "Login to Orange HRM Application",
+    "line": 2,
+    "id": "login-to-orange-hrm-application",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-to-orange-hrm-application;orange-hrm-login",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Orange HRM Login",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 9972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin124\" details",
+            "result": {
+              "status": "passed",
+              "duration": 1962000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Validate the Page Title as \"OrangeHRM\"",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Validate welcome message as \"Welcome Paul\"",
+            "result": {
+              "status": "failed",
+              "duration": 7245000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `a[id=welcome]`, but never found it.\n    at LoginPage.validateMessage (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Login.feature:792:31)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Login.feature:1195:9)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Login.feature:12176:9)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Login.feature:11517:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

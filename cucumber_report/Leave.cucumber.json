@@ -1,0 +1,134 @@
+[
+  {
+    "description": "              I want to log into Orange HRM login page",
+    "keyword": "Feature",
+    "name": "Apply Leave for the Employee",
+    "line": 3,
+    "id": "apply-leave-for-the-employee",
+    "tags": [
+      {
+        "name": "@e2e",
+        "line": 2
+      }
+    ],
+    "uri": "Leave.feature",
+    "elements": [
+      {
+        "id": "apply-leave-for-the-employee;apply-leave-for-the-employee",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Apply Leave for the employee",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 2
+          },
+          {
+            "name": "@e2e",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 1640000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 2410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Click Leave Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 1139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Click Apply Leave link",
+            "result": {
+              "status": "passed",
+              "duration": 589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Select \"US - Personal\" from the dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 2339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I enter \"2020-12-24\" and \"2020-12-24\" for leave",
+            "result": {
+              "status": "passed",
+              "duration": 3883000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Click Apply Button",
+            "result": {
+              "status": "passed",
+              "duration": 4166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Verify the No of hours \"8.00\" for Leave and Date \"2020-12-24\"",
+            "result": {
+              "status": "passed",
+              "duration": 8087000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

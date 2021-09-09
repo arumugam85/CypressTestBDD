@@ -1,0 +1,326 @@
+[
+  {
+    "description": "              I want to log into Orange HRM login page",
+    "keyword": "Feature",
+    "name": "Recruitment Process for the candidate",
+    "line": 2,
+    "id": "recruitment-process-for-the-candidate",
+    "tags": [
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "Recruitment.feature",
+    "elements": [
+      {
+        "id": "recruitment-process-for-the-candidate;add-candidates-for-the-job-posting",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Add candidates for the job posting",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 1953000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 2351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click Recruitment Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 1176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click Add Button",
+            "result": {
+              "status": "passed",
+              "duration": 2516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Add candidate \"John\", \"Brown\", \"johnbrowne@gmail.com\", \"7045604667\", \"Associate IT Manager\", \"Java development\",\"Develop Java Applications\", \"2020-12-29\" details for the job posting",
+            "result": {
+              "status": "passed",
+              "duration": 3710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Upload Resume for the job posting",
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Click Save Button",
+            "result": {
+              "status": "passed",
+              "duration": 898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Verify status \"Status: Application Initiated\" after apply for a job",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "recruitment-process-for-the-candidate;add-candidates-for-the-job-posting",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Add candidates for the job posting",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 546000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 2445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click Recruitment Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click Add Button",
+            "result": {
+              "status": "passed",
+              "duration": 2582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Add candidate \"Mike\", \"Dennis\", \"mike_dennis@gmail.com\", \"9805604578\", \"Senior QA Lead\", \"Automation development\",\"Develop Automation Script\", \"2020-12-29\" details for the job posting",
+            "result": {
+              "status": "passed",
+              "duration": 3752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Upload Resume for the job posting",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Click Save Button",
+            "result": {
+              "status": "passed",
+              "duration": 907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Verify status \"Status: Application Initiated\" after apply for a job",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "recruitment-process-for-the-candidate;download-resume-of-the-candidate",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Download Resume of the candidate",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 28
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 567000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 1788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "Click Recruitment Module Link",
+            "result": {
+              "status": "passed",
+              "duration": 1010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Search candidate \"John Brown\" from the table",
+            "result": {
+              "status": "passed",
+              "duration": 1131000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

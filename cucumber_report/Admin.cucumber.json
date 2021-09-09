@@ -1,0 +1,553 @@
+[
+  {
+    "description": "              I want to log into Orange HRM login page",
+    "keyword": "Feature",
+    "name": "Admin Role for the Application",
+    "line": 2,
+    "id": "admin-role-for-the-application",
+    "tags": [
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "Admin.feature",
+    "elements": [
+      {
+        "id": "admin-role-for-the-application;orange-hrm-login",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Orange HRM Login",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 2746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 4789000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Validate the Page Title as \"OrangeHRM\"",
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Validate welcome message as \"Welcome Paul\"",
+            "result": {
+              "status": "passed",
+              "duration": 4144000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-role-for-the-application;add-admin-role-to-users",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Add Admin role to users",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 4030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 2391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click admin link",
+            "result": {
+              "status": "passed",
+              "duration": 1202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click Add Button to admin role",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User selects UserRole \"Admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User enters EmpName \"Anthony Nolan\"",
+            "result": {
+              "status": "passed",
+              "duration": 995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User enters UserName \"anthonynolan1234\"",
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User enters Password \"anthony@123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User enters confirm password \"anthony@123\"",
+            "result": {
+              "status": "passed",
+              "duration": 736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Click Save Button",
+            "result": {
+              "status": "passed",
+              "duration": 1397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Logout from the application",
+            "result": {
+              "status": "passed",
+              "duration": 5966000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-role-for-the-application;add-admin-role-to-users",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Add Admin role to users",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 1781000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click admin link",
+            "result": {
+              "status": "passed",
+              "duration": 1016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click Add Button to admin role",
+            "result": {
+              "status": "passed",
+              "duration": 486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User selects UserRole \"ESS\"",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User enters EmpName \"Dominic Chase\"",
+            "result": {
+              "status": "passed",
+              "duration": 595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User enters UserName \"dominicchase1234\"",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User enters Password \"dominic@123\"",
+            "result": {
+              "status": "passed",
+              "duration": 706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User enters confirm password \"dominic@123\"",
+            "result": {
+              "status": "passed",
+              "duration": 593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Click Save Button",
+            "result": {
+              "status": "passed",
+              "duration": 1045000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Logout from the application",
+            "result": {
+              "status": "passed",
+              "duration": 5919000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-role-for-the-application;edit-admin-users",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Edit Admin users",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 37
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 2179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I click admin link",
+            "result": {
+              "status": "passed",
+              "duration": 771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Search Username \"Anthony.Nolan\" from the table",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "Click Search Button",
+            "result": {
+              "status": "passed",
+              "duration": 486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Select the \"Anthony.Nolan\" from the user list",
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Click Edit Button",
+            "result": {
+              "status": "passed",
+              "duration": 3304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Update the password \"anthony@12356\" and \"anthony@12356\" for the user",
+            "result": {
+              "status": "passed",
+              "duration": 5323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Click Save Button",
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-role-for-the-application;remove-user-from-the-list",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Remove user from the list",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 52
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Orange HRM login page",
+            "result": {
+              "status": "passed",
+              "duration": 1272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"admin\" and \"admin123\" details",
+            "result": {
+              "status": "passed",
+              "duration": 1831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I click admin link",
+            "result": {
+              "status": "passed",
+              "duration": 877000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Search Username \"John.Smith\" from the table",
+            "result": {
+              "status": "passed",
+              "duration": 574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Click Search Button",
+            "result": {
+              "status": "passed",
+              "duration": 520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "Remove the \"John.Smith\" from the user list",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "Cick Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 1296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Validate Modal window message \"OrangeHRM - Confirmation Required\" for Delete",
+            "result": {
+              "status": "passed",
+              "duration": 3188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "Click Confirm to delete button",
+            "result": {
+              "status": "passed",
+              "duration": 1935000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
