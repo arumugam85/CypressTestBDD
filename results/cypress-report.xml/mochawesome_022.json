@@ -1,0 +1,211 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-09-09T21:19:07.984Z",
+    "end": "2021-09-09T21:20:29.049Z",
+    "duration": 81065,
+    "testsRegistered": 6,
+    "passPercent": 66.66666666666666,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "22ec76f0-4f1f-4980-ab4e-de80c48a47e8",
+      "title": "",
+      "fullFile": "cypress\\integration\\features\\Employee.feature",
+      "file": "cypress\\integration\\features\\Employee.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d0e15762-e350-439a-8883-efd411a0b51d",
+          "title": "Add Employee Details to Orange HRM Application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Update Employee details to the page (example #1)",
+              "fullTitle": "Add Employee Details to Orange HRM Application Update Employee details to the page (example #1)",
+              "timedOut": null,
+              "duration": 14789,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e13d3c01-165d-4625-ad3c-5b9929439f21",
+              "parentUUID": "d0e15762-e350-439a-8883-efd411a0b51d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update Contact details to the page (example #1)",
+              "fullTitle": "Add Employee Details to Orange HRM Application Update Contact details to the page (example #1)",
+              "timedOut": null,
+              "duration": 12302,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "050d2505-c7e7-4468-b0b9-457f25053896",
+              "parentUUID": "d0e15762-e350-439a-8883-efd411a0b51d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add Timesheet to the employee (example #1)",
+              "fullTitle": "Add Employee Details to Orange HRM Application Add Timesheet to the employee (example #1)",
+              "timedOut": null,
+              "duration": 17970,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `div[id=msgDiv]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `div[id=msgDiv]`, but never found it.\n    at EmployeePage.verifyWarningMessage (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:418:31)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:1039:7)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:12188:29)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Employee.feature:11532:35)",
+                "diff": null
+              },
+              "uuid": "f65a7dce-ebec-4d64-ba81-d9a3d2929452",
+              "parentUUID": "d0e15762-e350-439a-8883-efd411a0b51d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Employee Report for Timesheet (example #1)",
+              "fullTitle": "Add Employee Details to Orange HRM Application Employee Report for Timesheet (example #1)",
+              "timedOut": null,
+              "duration": 14427,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "980f862b-ad94-4143-81ab-6d5f6807f4f1",
+              "parentUUID": "d0e15762-e350-439a-8883-efd411a0b51d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Employee Trackers for Timesheet (example #1)",
+              "fullTitle": "Add Employee Details to Orange HRM Application Employee Trackers for Timesheet (example #1)",
+              "timedOut": null,
+              "duration": 6654,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "ReferenceError: The following error originated from your application code, not from Cypress.\n\n  > userId is not defined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+                "estack": "ReferenceError: The following error originated from your application code, not from Cypress.\n\n  > userId is not defined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n    at https://opensource-demo.orangehrmlive.com/index.php/performance/addPerformanceTrackerLog/trackId/2:1270:23",
+                "diff": null
+              },
+              "uuid": "9a2615da-c712-43b7-8604-9c8f0d3dd946",
+              "parentUUID": "d0e15762-e350-439a-8883-efd411a0b51d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search Employee Details from the Directory (example #1)",
+              "fullTitle": "Add Employee Details to Orange HRM Application Search Employee Details from the Directory (example #1)",
+              "timedOut": null,
+              "duration": 14235,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "31baa077-a1fc-4e4b-94b4-83a8550091ee",
+              "parentUUID": "d0e15762-e350-439a-8883-efd411a0b51d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e13d3c01-165d-4625-ad3c-5b9929439f21",
+            "050d2505-c7e7-4468-b0b9-457f25053896",
+            "980f862b-ad94-4143-81ab-6d5f6807f4f1",
+            "31baa077-a1fc-4e4b-94b4-83a8550091ee"
+          ],
+          "failures": [
+            "f65a7dce-ebec-4d64-ba81-d9a3d2929452",
+            "9a2615da-c712-43b7-8604-9c8f0d3dd946"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 80377,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "results/cypress-report.xml",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

@@ -37,17 +37,17 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 10306000000
+              "duration": 9164000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "I enter \"admin\" and \"admin123\" details",
+            "name": "I enter \"Admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 5449000000
+              "duration": 2554000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "Validate the Page Title as \"OrangeHRM\"",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 28000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "Validate welcome message as \"Welcome Paul\"",
             "result": {
               "status": "passed",
-              "duration": 3222000000
+              "duration": 3110000000
             }
           }
         ]
@@ -96,17 +96,17 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 1037000000
+              "duration": 2160000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "I enter \"admin\" and \"admin123\" details",
+            "name": "I enter \"Admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 3501000000
+              "duration": 3452000000
             }
           },
           {
@@ -116,7 +116,7 @@
             "name": "I click admin link",
             "result": {
               "status": "passed",
-              "duration": 2138000000
+              "duration": 673000000
             }
           },
           {
@@ -126,7 +126,7 @@
             "name": "I click Add Button to admin role",
             "result": {
               "status": "passed",
-              "duration": 1628000000
+              "duration": 446000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "User selects UserRole \"Admin\"",
             "result": {
               "status": "passed",
-              "duration": 886000000
+              "duration": 292000000
             }
           },
           {
@@ -146,7 +146,7 @@
             "name": "User enters EmpName \"Anthony Nolan\"",
             "result": {
               "status": "passed",
-              "duration": 2049000000
+              "duration": 945000000
             }
           },
           {
@@ -156,7 +156,7 @@
             "name": "User enters UserName \"anthonynolan1234\"",
             "result": {
               "status": "passed",
-              "duration": 4546000000
+              "duration": 704000000
             }
           },
           {
@@ -166,7 +166,7 @@
             "name": "User enters Password \"anthony@123\"",
             "result": {
               "status": "passed",
-              "duration": 5835000000
+              "duration": 1009000000
             }
           },
           {
@@ -176,7 +176,7 @@
             "name": "User enters confirm password \"anthony@123\"",
             "result": {
               "status": "passed",
-              "duration": 1364000000
+              "duration": 731000000
             }
           },
           {
@@ -186,7 +186,7 @@
             "name": "Click Save Button",
             "result": {
               "status": "passed",
-              "duration": 2280000000
+              "duration": 1208000000
             }
           },
           {
@@ -196,7 +196,7 @@
             "name": "Logout from the application",
             "result": {
               "status": "passed",
-              "duration": 7898000000
+              "duration": 5933000000
             }
           }
         ]
@@ -225,17 +225,17 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 1745000000
+              "duration": 852000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "I enter \"admin\" and \"admin123\" details",
+            "name": "I enter \"Admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 3920000000
+              "duration": 1657000000
             }
           },
           {
@@ -245,7 +245,7 @@
             "name": "I click admin link",
             "result": {
               "status": "passed",
-              "duration": 2477000000
+              "duration": 684000000
             }
           },
           {
@@ -255,7 +255,7 @@
             "name": "I click Add Button to admin role",
             "result": {
               "status": "passed",
-              "duration": 1369000000
+              "duration": 357000000
             }
           },
           {
@@ -265,7 +265,7 @@
             "name": "User selects UserRole \"ESS\"",
             "result": {
               "status": "passed",
-              "duration": 850000000
+              "duration": 177000000
             }
           },
           {
@@ -275,7 +275,7 @@
             "name": "User enters EmpName \"Dominic Chase\"",
             "result": {
               "status": "passed",
-              "duration": 1945000000
+              "duration": 551000000
             }
           },
           {
@@ -285,7 +285,7 @@
             "name": "User enters UserName \"dominicchase1234\"",
             "result": {
               "status": "passed",
-              "duration": 3972000000
+              "duration": 573000000
             }
           },
           {
@@ -295,7 +295,7 @@
             "name": "User enters Password \"dominic@123\"",
             "result": {
               "status": "passed",
-              "duration": 8015000000
+              "duration": 499000000
             }
           },
           {
@@ -305,7 +305,7 @@
             "name": "User enters confirm password \"dominic@123\"",
             "result": {
               "status": "passed",
-              "duration": 2018000000
+              "duration": 444000000
             }
           },
           {
@@ -315,7 +315,7 @@
             "name": "Click Save Button",
             "result": {
               "status": "passed",
-              "duration": 2089000000
+              "duration": 1026000000
             }
           },
           {
@@ -325,7 +325,7 @@
             "name": "Logout from the application",
             "result": {
               "status": "passed",
-              "duration": 12464000000
+              "duration": 5955000000
             }
           }
         ]
@@ -354,17 +354,17 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 1395000000
+              "duration": 953000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "I enter \"admin\" and \"admin123\" details",
+            "name": "I enter \"Admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 2486000000
+              "duration": 1644000000
             }
           },
           {
@@ -374,7 +374,7 @@
             "name": "I click admin link",
             "result": {
               "status": "passed",
-              "duration": 2100000000
+              "duration": 748000000
             }
           },
           {
@@ -384,7 +384,7 @@
             "name": "Search Username \"Anthony.Nolan\" from the table",
             "result": {
               "status": "passed",
-              "duration": 1088000000
+              "duration": 499000000
             }
           },
           {
@@ -394,7 +394,7 @@
             "name": "Click Search Button",
             "result": {
               "status": "passed",
-              "duration": 954000000
+              "duration": 405000000
             }
           },
           {
@@ -404,7 +404,7 @@
             "name": "Select the \"Anthony.Nolan\" from the user list",
             "result": {
               "status": "passed",
-              "duration": 1528000000
+              "duration": 512000000
             }
           },
           {
@@ -414,7 +414,7 @@
             "name": "Click Edit Button",
             "result": {
               "status": "passed",
-              "duration": 3380000000
+              "duration": 3195000000
             }
           },
           {
@@ -424,7 +424,7 @@
             "name": "Update the password \"anthony@12356\" and \"anthony@12356\" for the user",
             "result": {
               "status": "passed",
-              "duration": 9940000000
+              "duration": 4936000000
             }
           },
           {
@@ -434,7 +434,7 @@
             "name": "Click Save Button",
             "result": {
               "status": "passed",
-              "duration": 925000000
+              "duration": 194000000
             }
           }
         ]
@@ -442,7 +442,7 @@
       {
         "id": "admin-role-for-the-application;remove-user-from-the-list",
         "keyword": "Scenario",
-        "line": 67,
+        "line": 66,
         "name": "Remove user from the list",
         "tags": [
           {
@@ -463,17 +463,17 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 1056000000
+              "duration": 1059000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "I enter \"admin\" and \"admin123\" details",
+            "name": "I enter \"Admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 2267000000
+              "duration": 1693000000
             }
           },
           {
@@ -483,7 +483,7 @@
             "name": "I click admin link",
             "result": {
               "status": "passed",
-              "duration": 1485000000
+              "duration": 743000000
             }
           },
           {
@@ -493,7 +493,7 @@
             "name": "Search Username \"John.Smith\" from the table",
             "result": {
               "status": "passed",
-              "duration": 930000000
+              "duration": 454000000
             }
           },
           {
@@ -503,7 +503,7 @@
             "name": "Click Search Button",
             "result": {
               "status": "passed",
-              "duration": 904000000
+              "duration": 378000000
             }
           },
           {
@@ -513,7 +513,7 @@
             "name": "Remove the \"John.Smith\" from the user list",
             "result": {
               "status": "passed",
-              "duration": 657000000
+              "duration": 103000000
             }
           },
           {
@@ -523,7 +523,7 @@
             "name": "Cick Delete button",
             "result": {
               "status": "passed",
-              "duration": 1393000000
+              "duration": 1198000000
             }
           },
           {
@@ -533,7 +533,7 @@
             "name": "Validate Modal window message \"OrangeHRM - Confirmation Required\" for Delete",
             "result": {
               "status": "passed",
-              "duration": 3511000000
+              "duration": 3102000000
             }
           },
           {
@@ -543,7 +543,7 @@
             "name": "Click Confirm to delete button",
             "result": {
               "status": "passed",
-              "duration": 3855000000
+              "duration": 1864000000
             }
           }
         ]

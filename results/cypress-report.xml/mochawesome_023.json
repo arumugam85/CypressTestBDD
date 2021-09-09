@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-09-09T21:20:42.055Z",
+    "end": "2021-09-09T21:20:54.883Z",
+    "duration": 12828,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "15cc1480-e157-43b7-93c6-7a4929f321cf",
+      "title": "",
+      "fullFile": "cypress\\integration\\features\\Leave.feature",
+      "file": "cypress\\integration\\features\\Leave.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8bce5fa9-ce72-4ed1-bc1b-fa9336d97acb",
+          "title": "Apply Leave for the Employee",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Apply Leave for the employee (example #1)",
+              "fullTitle": "Apply Leave for the Employee Apply Leave for the employee (example #1)",
+              "timedOut": null,
+              "duration": 12632,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `select#applyleave_txtLeaveType`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `select#applyleave_txtLeaveType`, but never found it.\n    at LoginPage.selectLeaveTypeFromDropdown (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Leave.feature:693:10)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Leave.feature:1182:9)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Leave.feature:12188:29)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\Leave.feature:11532:35)",
+                "diff": null
+              },
+              "uuid": "f4d82463-6c8a-4a72-b850-2984f950d63a",
+              "parentUUID": "8bce5fa9-ce72-4ed1-bc1b-fa9336d97acb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f4d82463-6c8a-4a72-b850-2984f950d63a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 12632,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "results/cypress-report.xml",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

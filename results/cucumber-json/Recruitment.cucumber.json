@@ -37,7 +37,7 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 3726000000
+              "duration": 1828000000
             }
           },
           {
@@ -64,7 +64,7 @@
             "name": "I enter \"admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 7818000000
+              "duration": 2371000000
             }
           },
           {
@@ -74,7 +74,7 @@
             "name": "Click Recruitment Module Link",
             "result": {
               "status": "passed",
-              "duration": 3306000000
+              "duration": 1111000000
             }
           },
           {
@@ -84,7 +84,7 @@
             "name": "Click Add Button",
             "result": {
               "status": "passed",
-              "duration": 3567000000
+              "duration": 2511000000
             }
           },
           {
@@ -94,7 +94,7 @@
             "name": "Add candidate \"John\", \"Brown\", \"johnbrowne@gmail.com\", \"7045604667\", \"Associate IT Manager\", \"Java development\",\"Develop Java Applications\", \"2020-12-29\" details for the job posting",
             "result": {
               "status": "passed",
-              "duration": 10163000000
+              "duration": 4001000000
             }
           },
           {
@@ -104,7 +104,7 @@
             "name": "Upload Resume for the job posting",
             "result": {
               "status": "passed",
-              "duration": 328000000
+              "duration": 92000000
             }
           },
           {
@@ -114,7 +114,7 @@
             "name": "Click Save Button",
             "result": {
               "status": "passed",
-              "duration": 2408000000
+              "duration": 842000000
             }
           },
           {
@@ -124,7 +124,7 @@
             "name": "Verify status \"Status: Application Initiated\" after apply for a job",
             "result": {
               "status": "passed",
-              "duration": 170000000
+              "duration": 63000000
             }
           }
         ]
@@ -153,7 +153,7 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 861000000
+              "duration": 803000000
             }
           },
           {
@@ -180,7 +180,7 @@
             "name": "I enter \"admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 2077000000
+              "duration": 1730000000
             }
           },
           {
@@ -190,7 +190,7 @@
             "name": "Click Recruitment Module Link",
             "result": {
               "status": "passed",
-              "duration": 1521000000
+              "duration": 852000000
             }
           },
           {
@@ -200,7 +200,7 @@
             "name": "Click Add Button",
             "result": {
               "status": "passed",
-              "duration": 3204000000
+              "duration": 2586000000
             }
           },
           {
@@ -210,7 +210,7 @@
             "name": "Add candidate \"Mike\", \"Dennis\", \"mike_dennis@gmail.com\", \"9805604578\", \"Senior QA Lead\", \"Automation development\",\"Develop Automation Script\", \"2020-12-29\" details for the job posting",
             "result": {
               "status": "passed",
-              "duration": 7310000000
+              "duration": 3898000000
             }
           },
           {
@@ -220,7 +220,7 @@
             "name": "Upload Resume for the job posting",
             "result": {
               "status": "passed",
-              "duration": 134000000
+              "duration": 48000000
             }
           },
           {
@@ -230,7 +230,7 @@
             "name": "Click Save Button",
             "result": {
               "status": "passed",
-              "duration": 1953000000
+              "duration": 867000000
             }
           },
           {
@@ -240,7 +240,7 @@
             "name": "Verify status \"Status: Application Initiated\" after apply for a job",
             "result": {
               "status": "passed",
-              "duration": 136000000
+              "duration": 48000000
             }
           }
         ]
@@ -269,7 +269,7 @@
             "name": "I open Orange HRM login page",
             "result": {
               "status": "passed",
-              "duration": 777000000
+              "duration": 788000000
             }
           },
           {
@@ -296,7 +296,7 @@
             "name": "I enter \"admin\" and \"admin123\" details",
             "result": {
               "status": "passed",
-              "duration": 1857000000
+              "duration": 1666000000
             }
           },
           {
@@ -306,7 +306,7 @@
             "name": "Click Recruitment Module Link",
             "result": {
               "status": "passed",
-              "duration": 1208000000
+              "duration": 552000000
             }
           },
           {
@@ -316,7 +316,7 @@
             "name": "Search candidate \"John Brown\" from the table",
             "result": {
               "status": "passed",
-              "duration": 2448000000
+              "duration": 1194000000
             }
           }
         ]
