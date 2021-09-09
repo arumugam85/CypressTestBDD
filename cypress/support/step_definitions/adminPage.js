@@ -20,8 +20,6 @@ When('Click Save button', () => {
 });
 
 
-
-
 When('User selects UserRole {string}',  function (userrole) {
    
     admin.selectUserRoleDropdown(userrole)

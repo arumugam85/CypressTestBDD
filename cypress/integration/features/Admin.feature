@@ -4,7 +4,7 @@ Feature: Admin Role for the Application
               I want to log into Orange HRM login page
         Background: Open HRM Application
             Given I open Orange HRM login page
-             When I enter "admin" and "admin123" details
+             When I enter "Admin" and "admin123" details
 
         @e2e
         Scenario Outline: Orange HRM Login
